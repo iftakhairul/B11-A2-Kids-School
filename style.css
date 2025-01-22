@@ -327,7 +327,7 @@ footer a{
         width: 45dvw;
     }
     .third-adjust{
-        height: fit-content;
+        height: 180px;
         padding-bottom: 10px;
     }
 }
