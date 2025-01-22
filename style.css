@@ -9,7 +9,7 @@ body{
     display: flex;
     justify-content: space-between;
     padding-left: 50px;
-    padding-right: 50px;
+    padding-right: 60px;
 }
 #header-section a{
     text-decoration: none;
@@ -86,7 +86,7 @@ body{
 }
 #first-display{
     padding-top: 20px;
-    padding-bottom: 20PX;
+    padding-bottom: 10PX;
     border-radius: 25px;
     overflow: hidden;
     display: block;
@@ -104,6 +104,7 @@ img{
 }
 #first-paragraph{
     padding-bottom: 15px;
+    padding-right: 70px;
 }
 #first-heading{
     padding-bottom: 15px;
@@ -130,7 +131,7 @@ img{
     cursor: pointer;
 }
 #second-display{
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 20PX;
     border-radius: 25px;
     overflow: hidden;
@@ -145,7 +146,6 @@ img{
     width: 25%;
 }
 .second-header{
-    margin-top: 10px;
     margin-bottom: 10px;
     border
 }
@@ -396,7 +396,7 @@ footer a{
         display: none;
     }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 560px){
     #third-content-1{
         display: none;
     }
@@ -414,7 +414,7 @@ footer a{
         width: 45dvw;
     }
     .third-adjust{
-        height: 180px;
+        height: 190px;
         padding-bottom: 10px;
     }
     #header-section{
