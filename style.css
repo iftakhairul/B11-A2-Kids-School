@@ -222,6 +222,42 @@ a{
     text-align: center;
     margin-bottom: 15px;
 }
+footer{
+    background-color: skyblue;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    line-height: 3;
+}
+#footer{
+    display: block;
+    margin-right: -20px;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    margin-left: -20px;
+    padding: 60px 20px 60px 20px;
+}
+#footer-content{
+    color: white;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+#footer img{
+    height: 50px;
+    width: 50px;
+    padding-top: 20px;
+}
+#footer-logo{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+
+}
+#footer-social{
+    color: white;
+    line-height: 3;
+}
 @media only screen and (min-width: 1100px) {
     body{
         margin: 10px 20px 20px 10px;
@@ -254,6 +290,24 @@ a{
     #carriculum-3-a{
         width: 33%;
     }
+    #footer-view{
+        display: flex;
+    }
+    #footer-content{
+        display: block;
+        width: 50%;     
+        padding-left: 60px;   
+        padding-right: 60px;
+    }
+    #footer-about{
+        display: block;
+        width: 25%;
+
+    }
+    #footer-social{
+        display: block;
+        width: 25%;
+    }
 }
 @media only screen and (max-width: 600px) {
     #third-content-1{
@@ -271,5 +325,9 @@ a{
     }
     #third-display img{
         width: 45dvw;
+    }
+    .third-adjust{
+        height: fit-content;
+        padding-bottom: 10px;
     }
 }
